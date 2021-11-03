@@ -1,12 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import HomeScreen from './screens/HomeScreen';
+import {makeStyles} from '@material-ui/core'
 
 function App() {
+
+  const useStyles = makeStyles(()=>({
+    App:{
+      backgroundColor:'#14161a',
+      color:'white',
+      minHeight:'100vh'    
+    }
+  }))
+  const classes = useStyles()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div className={classes.App}>
+        <HomeScreen />
     </div>
   );
 }
