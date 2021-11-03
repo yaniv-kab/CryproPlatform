@@ -1,7 +1,7 @@
 const coins = [
     {
         _id:1,
-        isShow:false,
+        isShow:true,
         name:"ripple",
         symnbol:"XRP",
         icon:"cf cf-xrp",
@@ -83,7 +83,7 @@ const coins = [
     },
     {
         _id:2,
-        isShow:false,
+        isShow:true,
         name:"Bitcoin Cash",
         symnbol:"BCH",
         icon:"cf cf-bch",
@@ -155,7 +155,7 @@ const coins = [
         ]
     }, {
         _id:3,
-        isShow:false,
+        isShow:true,
         name:"LiteCoin",
         symnbol:"LTC",
         icon:"cf cf-ltc",
@@ -227,7 +227,7 @@ const coins = [
         ]
     }, {
         _id:4,
-        isShow:false,
+        isShow:true,
         name:"PolkaDot",
         symnbol:"DOT",
         icon:"cf cf-dot",
