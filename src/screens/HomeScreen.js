@@ -36,8 +36,10 @@ const HomeScreen = () => {
     const classes = useStyles()
     const handleSearch = () => {
         return coins.filter((coin)=> (
-            coin.name.toLocaleLowerCase().includes(search) ||
-             coin.symnbol.toLocaleLowerCase().includes(search)
+            coin.name.includes(search) ||
+             coin.symnbol.toLocaleLowerCase().includes(search) ||
+              coin.symnbol.includes(search)
+
              ))  
         }
     return (
